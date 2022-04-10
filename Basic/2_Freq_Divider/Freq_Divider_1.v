@@ -1,4 +1,9 @@
 `timescale 1ps/1ps
+
+/* 
+此分频器通过双边沿触发来实现
+ */
+
 module FD (
     input wire clk_in,
     input wire [31:0] N,
@@ -10,7 +15,7 @@ module FD (
     end
 
     reg [31:0] cnt;
-    always @(edge clk_in) begin
+    always @(edge clk_in) begin // 双边沿触发
         if (cnt<N)begin
             cnt<=1'b1+cnt;
         end else begin
