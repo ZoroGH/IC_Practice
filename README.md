@@ -7,9 +7,10 @@
 
 ## DIRS
 
--   Environment_Test
+- Environment_Test
+- Basic
+- Notes
 
-    测试环境
 
 
 
@@ -30,11 +31,14 @@ module Half_Adder();
 "Half_Adder_Top.v"
 ```
 
+- GTKwave用命令行直接打开文件后，浏览波形会变得极其卡顿，应该先打开GTKwave，再导入需要预览的文件。
+
 
 ## MAIN LOG
 
 - 21/10/23 编写基本的自动脚本指令
 - 22/02/16 添加了若干项目，加法器，分频器，LED，PWM，循环移位寄存器
 - 22/03/02 有限状态机
+- 22/04/17 按键消抖
 
 

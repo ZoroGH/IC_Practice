@@ -14,7 +14,7 @@ def main():
         os.chdir(path)
         os.system('iverilog -s '+tb[:-2]+" -o "+'tar.out *.v')
         os.system('vvp tar.out')
-        os.system('gtkwave dumpfile.vcd')
+        # os.system('gtkwave dumpfile.vcd')
 
 if __name__=='__main__':
     main()
