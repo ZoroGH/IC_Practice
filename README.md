@@ -1,5 +1,8 @@
 # IC_Practice
-该仓库用于记录本人在学习数字电路及Verilog语言学习过程中所产生的代码.
+该仓库用于记录在学习数字电路及Verilog语言学习过程中所产生的代码.
+
+- 仓库作者：ZoroGH
+- 指导教师：**Changhao Du**
 
 本仓库所使用的工具为iverilog 与 GTKwave.
 
